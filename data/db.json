@@ -1,5 +1,54 @@
 {
-  "planets": [],
+  "planets": [
+    {
+      "id": 1,
+      "name": "Sun"
+    },
+    {
+      "id": 2,
+      "name": "Moon"
+    },
+    {
+      "id": 3,
+      "name": "Mercury"
+    },
+    {
+      "id": 4,
+      "name": "Venus"
+    },
+    {
+      "id": 5,
+      "name": "Mars"
+    },
+    {
+      "id": 6,
+      "name": "Jupiter"
+    },
+    {
+      "id": 7,
+      "name": "Saturn"
+    },
+    {
+      "id": 8,
+      "name": "Uranus"
+    },
+    {
+      "id": 9,
+      "name": "Neptune"
+    },
+    {
+      "id": 10,
+      "name": "Pluto"
+    },
+    {
+      "id": 11,
+      "name": "True Node"
+    },
+    {
+      "id": 12,
+      "name": "Chiron"
+    }
+  ],
   "widgets": [
     {
       "id": 1,
@@ -16,6 +65,24 @@
     {
       "id": 4,
       "name": "Widget Four"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Toh Kay"
+    },
+    {
+      "id": 2,
+      "name": "Streetlight Manifesto"
+    },
+    {
+      "id": 3,
+      "name": "Nirvana"
+    },
+    {
+      "id": 4,
+      "name": "The Beatles"
     }
   ]
 }

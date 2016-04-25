@@ -8,6 +8,8 @@ import SearchLayoutContainer from './components/containers/search-layout-contain
 // Pages
 import Home from './components/home';
 import PlanetListContainer from './components/containers/planet-list-container';
+import ArtistListContainer from './components/containers/artist-list-container';
+import TrackListContainer from './components/containers/track-list-container';
 import PlanetProfileContainer from './components/containers/planet-profile-container';
 import WidgetListContainer from './components/containers/widget-list-container';
 
@@ -28,6 +30,19 @@ export default (
             <IndexRoute component={WidgetListContainer} />
           </Route>
         </Route>
+
+        <Route path="artists">
+          <Route component={SearchLayoutContainer}>
+            <IndexRoute component={ArtistListContainer} />
+          </Route>
+        </Route>
+
+        <Route path="tracks">
+          <Route component={SearchLayoutContainer}>
+            <IndexRoute component={TrackListContainer} />
+          </Route>
+        </Route>
+
 
     </Route>
   </Router>

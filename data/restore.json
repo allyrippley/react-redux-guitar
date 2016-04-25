@@ -66,5 +66,23 @@
       "id": 4,
       "name": "Widget Four"
     }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Toh Kay"
+    },
+    {
+      "id": 2,
+      "name": "Streetlight Manifesto"
+    },
+    {
+      "id": 3,
+      "name": "Nirvana"
+    },
+    {
+      "id": 4,
+      "name": "The Beatles"
+    }
   ]
 }
